@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>r-form</title>
+</head>
+
+<body>
+    <h3>registration form</h3>
+    <form action="actoin.php">
+        <input type="text" placeholder="username">
+        <br>
+        <input type="password" placeholder="password">
+        <br>
+        <h3>select class</h3>
+        <label for="101">
+            <input type="radio" value="class XI" name="class" id="101">classXI
+        </label>
+        <br>
+        <label for="102">
+            <input type="radio" value="class XII" name="class" id="102">classXI
+        </label>
+        <br><br>
+        <h3>select activity</h3>
+        <label for="study">
+            <input type="checkbox" value="study" name="activity" id="001">study
+        </label>
+        <label for="sports">
+            <input type="checkbox" value="sports" name="activity" id="002">study
+        </label>
+        <br>
+        <br>
+        <h3>select city</h3>
+        <select name="city">
+            <option value="delhi">delhi</option>
+            <option value="banglore">banglore</option>
+            <option value="mumbai">mumbai</option>
+        </select>
+        <br><br>
+        <textarea name="feedback" id="001" placeholder="give feedback" rows="3">feedback</textarea>
+        <br>
+
+        <input type="submit" value="submit">
+
+        <!-- <iframe src="youtube.com/wikipedia.com" frameborder="0"></iframe> -->
+        <!-- <video src="youtubevideo.com" controls> reference</video> -->
+    </form>
+</body>
+
+</html>
