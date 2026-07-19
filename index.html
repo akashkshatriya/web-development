@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Overflow</title>
+    <title>Document</title>
     <style>
-        .box {
-            width: 30vw;
-            height: 30vh;
-            border: 2px solid black;
-            /* overflow: auto;
-            overflow-x: hidden;
-            overflow-y: scroll; */
-            overflow: auto hidden;
-            /* white-space: nowrap;
-            text-overflow: ellipsis; */
+        p{
+            background-color: blue;
+            color: white;
         }
+
+        div p:first-child{ 
+            background-color: yellow;
+            color: red;
+        }
+
+       
     </style>
 </head>
-
 <body>
-    <div class="box">
-        I am a good boy and I love to write Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta iure amet
-        unde voluptas nihil vero, maxime esse quis quos natus rem, earum aspernatur quasi aut ea commodi nostrum
-        voluptate! Sint rerum nostrum perferendis sapiente explicabo perspiciatis, ut magni? Aspernatur, provident
-        dolorum unde corporis doloribus rem!
+    <!-- Write html and css code to style a paragraph inside a div which contains 5 other paragraphs. The first paragraph must have background color yellow and text color red. The other paragraphs must have background color blue and text color white. The HMTL is written below for your reference. Do not change this html -->
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo consectetur dicta fuga ea at vitae suscipit, repellendus illum deleniti laboriosam ipsa distinctio.</p>
+        <p>I am another para</p>
+        <p>I am also another para</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo consectetur dicta fuga ea at vitae suscipit, repellendus illum deleniti laboriosam ipsa distinctio.</p>
+        <p>I am another para</p>
+        <p>I am also another para</p>
     </div>
 </body>
-
 </html>
